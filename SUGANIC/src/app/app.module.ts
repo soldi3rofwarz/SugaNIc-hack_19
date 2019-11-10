@@ -12,6 +12,8 @@ import { CarruselComponent } from './Carrusel/carrusel/carrusel.component';
 import { from } from 'rxjs';
 import { SubastaComponent } from './subasta/subasta/subasta.component';
 
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +28,8 @@ import { SubastaComponent } from './subasta/subasta/subasta.component';
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig)
     
   ],
   providers: [],
