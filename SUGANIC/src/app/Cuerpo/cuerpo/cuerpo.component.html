@@ -1,6 +1,7 @@
+<body>
 <div class="container">
 		<div class="form__top">
-			<h2><span>Registro Bovino</span></h2>
+			<h2><span style="color: black;">Registro Bovino</span></h2>
 		</div>		
 		<form class="form__reg" action="">
 			<input class="input" type="text" placeholder="&#128100; numero de chapa " required autofocus>
@@ -14,8 +15,8 @@
                     <label class="custom-file-label" for="customFile"></label>
              </div>
              <div class="btn__form">
-                    <input class="btn__submit" type="submit" value="REGISTRAR">
-                    <input routerLink="/subasta" class="btn__reset" type="reset" value="LIMPIAR">	
+                   
+                    <input routerLink="/subasta" class="btn__reset" type="reset" style="color:black" value="Guardar">	
                 </div>
         </form>
         <script>
@@ -25,4 +26,5 @@
                   $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
                 });
                 </script>
-	</div>
+        </div>
+</body>
