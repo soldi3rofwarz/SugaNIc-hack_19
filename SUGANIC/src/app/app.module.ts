@@ -23,7 +23,8 @@ import { from } from 'rxjs';
     NavbarComponent,
     FooterComponent,
     CuerpoComponent,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    BrowserModule
   ],
   imports: [
     BrowserModule,
