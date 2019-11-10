@@ -11,5 +11,6 @@ export class CuerpoComponent implements OnInit {
 
   ngOnInit() {
   }
+  
 
 }
