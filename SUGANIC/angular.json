@@ -25,9 +25,12 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+              "node_modules/materialize-css/dist/css/materialize.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": ["node_modules/jquery/dist/jquery",
+            "node_modules/hammerjs/hammer.js",
+          "node_modules/materialize-css/dist/js/materialize.js"]
           },
           "configurations": {
             "production": {
