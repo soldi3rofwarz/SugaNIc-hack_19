@@ -10,6 +10,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { CarruselComponent } from './Carrusel/carrusel/carrusel.component';
 import { from } from 'rxjs';
+import { SubastaComponent } from './subasta/subasta/subasta.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { from } from 'rxjs';
     NavbarComponent,
     FooterComponent,
     CuerpoComponent,
+    SubastaComponent,
     
   ],
   imports: [
