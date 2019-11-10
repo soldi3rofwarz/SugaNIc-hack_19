@@ -1,1 +1,28 @@
-<button type="button" class="btn btn-primary">Primary</button>
+<div class="container">
+		<div class="form__top">
+			<h2><span>Registro Bovino</span></h2>
+		</div>		
+		<form class="form__reg" action="">
+			<input class="input" type="text" placeholder="&#128100; numero de chapa " required autofocus>
+            <input class="input" type="text" placeholder="&#9993;  Raza" required>
+            <input class="input" type="number" placeholder="&#128222;  Peso" required>
+            <input class="input" type="text" placeholder="&#8962;  Municipio" required>
+            <input class="input" type="text" placeholder="&#128100; Propietario " required autofocus>
+            
+            <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="customFile">
+                    <label class="custom-file-label" for="customFile"></label>
+             </div>
+             <div class="btn__form">
+                    <input class="btn__submit" type="submit" value="REGISTRAR">
+                    <input class="btn__reset" type="reset" value="LIMPIAR">	
+                </div>
+        </form>
+        <script>
+                // Add the following code if you want the name of the file appear on select
+                $(".custom-file-input").on("change", function() {
+                  var fileName = $(this).val().split("\\").pop();
+                  $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+                });
+                </script>
+	</div>
