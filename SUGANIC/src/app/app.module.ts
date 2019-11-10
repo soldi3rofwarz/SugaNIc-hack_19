@@ -25,7 +25,9 @@ import { CuerpoComponent } from './Cuerpo/cuerpo/cuerpo.component';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
