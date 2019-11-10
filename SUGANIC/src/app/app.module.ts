@@ -10,7 +10,8 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
 import { CarruselComponent } from './Carrusel/carrusel/carrusel.component';
 import { from } from 'rxjs';
-
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { from } from 'rxjs';
   ],
   imports: [
     BrowserModule,
-    NgbModule
+    NgbModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig)
     
   ],
   providers: [],
