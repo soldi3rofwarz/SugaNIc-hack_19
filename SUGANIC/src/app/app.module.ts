@@ -11,9 +11,22 @@ import { AppComponent } from './app.component';
 import { CarruselComponent } from './Carrusel/carrusel/carrusel.component';
 import { from } from 'rxjs';
 import { SubastaComponent } from './subasta/subasta/subasta.component';
-
+import {RouterModule, Routes} from '@angular/router';
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
+
+
+ const rutas: Routes=[
+   {
+    path:'cuerpo',
+    component: CuerpoComponent
+   },
+   {
+    path:'subasta',
+    component: SubastaComponent
+   }
+   
+ ]
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +41,7 @@ import { environment } from '../environments/environment';
   ],
   imports: [
     BrowserModule,
+    RouterModule.forRoot(rutas),
     NgbModule,
     AngularFireModule.initializeApp(environment.firebaseConfig)
     
