@@ -13,7 +13,6 @@ export class CarruselComponent implements OnInit {
     config.keyboard = false;  
     config.pauseOnHover = false;
   }
-
   ngOnInit() {
   }
 
