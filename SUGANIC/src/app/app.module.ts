@@ -1,6 +1,6 @@
-import { BrowserModule} from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
 
+import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
 import { RegistroComponent } from './Registro/registro/registro.component';
 import { LoginComponent } from './Login/login/login.component';
 import { NavbarComponent } from './Navbar/navbar/navbar.component';
@@ -20,7 +20,7 @@ import { from } from 'rxjs';
     NavbarComponent,
     FooterComponent,
     CuerpoComponent,
-    BrowserModule
+    
   ],
   imports: [
     BrowserModule,
