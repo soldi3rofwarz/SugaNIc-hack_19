@@ -1,28 +1,34 @@
-html {
-	font-size: 16px;
-    font-family: 'Lato', sans-serif;
-}
+
 
 body {
-    background-color: #9AD1ED;
+	background-image: url(../../../assets/image/tr.png);
+	background-repeat: no-repeat;
+	background-attachment: cover;
+
+	height: 100%;
+	margin: auto;
+	padding: auto;
+
     
 }
 
 .container {
 	max-width: 450px;
 	height: auto;
-	background-color: #EFEFEF;
-	margin: 5% auto;
+	background:#7FFFD4;
+	margin: 4% auto;
 	padding-bottom: 1rem;
 	
 }
 
 .form__top {
 	width: 100%;
+	
 	text-align: center;
 	padding: 2rem 0 1rem;
-	border-top: solid .4rem #F39B53;
+	border-top: solid .4rem rgb(7, 7, 7);
 	margin-bottom: 1rem;
+	
 }
 
 .form__top h2 {
