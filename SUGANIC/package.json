@@ -21,18 +21,19 @@
     "@angular/platform-browser": "~8.2.11",
     "@angular/platform-browser-dynamic": "~8.2.11",
     "@angular/router": "~8.2.11",
-<<<<<<< HEAD
+
+
     "@ng-bootstrap/ng-bootstrap": "^5.1.4",
-=======
->>>>>>> 9d1a7c400b1221d866f87a8399ab1df760a335b6
+
+
     "bootstrap": "^4.3.1",
     "hammerjs": "^2.0.8",
     "jquery": "^3.4.1",
-<<<<<<< HEAD
+
     "materialize-css": "^1.0.0-rc.2",
-=======
+
     "popper.js": "^1.16.0",
->>>>>>> install_bootstrap
+
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
